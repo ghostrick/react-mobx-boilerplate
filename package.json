@@ -1,7 +1,7 @@
 {
   "name": "react-mobx-boilerplate",
   "version": "1.0.0",
-  "main": "index.js",
+  "repository": "https://github.com/ghostrick/react-mobx-boilerplate",
   "author": "Ghostrick <ghostrick.kinako@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -18,8 +18,7 @@
     "react-dom": "^16.4.1",
     "react-ionicons": "^2.1.6",
     "react-router-dom": "^4.3.1",
-    "recompose": "^0.27.1",
-    "url-loader": "^1.0.1"
+    "recompose": "^0.27.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -37,6 +36,7 @@
     "style-loader": "^0.21.0",
     "stylus-loader": "^3.0.2",
     "uglifyjs-webpack-plugin": "^1.2.7",
+    "url-loader": "^1.0.1",
     "webpack": "^4.15.1",
     "webpack-cli": "^3.0.8",
     "webpack-dev-server": "^3.1.4"
