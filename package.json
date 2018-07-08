@@ -1,0 +1,43 @@
+{
+  "name": "react-mobx-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ghostrick <ghostrick.kinako@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "webpack-dev-server --mode development --hot",
+    "build": "webpack --mode production",
+    "lint": "./node_modules/.bin/eslint src",
+    "typecheck": "./node_modules/.bin/flow"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "mobx": "4.3.1",
+    "mobx-react": "5.1.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-ionicons": "^2.1.6",
+    "react-router-dom": "^4.3.1",
+    "recompose": "^0.27.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.5",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-mobx": "^1.0.3",
+    "babel-preset-react": "^6.24.1",
+    "compression-webpack-plugin": "^1.1.11",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.0.1",
+    "flow-bin": "^0.76.0",
+    "html-webpack-plugin": "^3.2.0",
+    "react-hot-loader": "^4.3.3",
+    "style-loader": "^0.21.0",
+    "stylus-loader": "^3.0.2",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  }
+}

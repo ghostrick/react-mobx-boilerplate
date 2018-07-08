@@ -1,0 +1,17 @@
+@import './base/Button.styl'
+
+$color = #ff0057
+
+.button
+  @extend .base--button
+
+  background $color
+  a
+    color #fff
+
+  // on hover
+  &:hover
+    background #fff
+    border-color $color
+    a
+      color $color

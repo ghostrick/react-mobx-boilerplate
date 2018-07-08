@@ -1,0 +1,18 @@
+[ignore]
+.*/node_modules/.*
+
+[include]
+
+[libs]
+flow-typed
+
+[options]
+module.name_mapper.extension='styl' -> 'stylModule'
+module.name_mapper='^\(.*\)$' -> '<PROJECT_ROOT>/src/\1'
+module.file_ext=.js
+module.file_ext=.json
+module.file_ext=.styl
+esproposal.decorators=ignore
+
+[version]
+^0.76.0
