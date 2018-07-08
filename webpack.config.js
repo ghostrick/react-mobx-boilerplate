@@ -16,6 +16,7 @@ const hmrEntries = [
 module.exports = (env, argv) => {
 
   return {
+    node: { fs: 'empty' },
     entry: {
       vendor: (argv.mode !== 'production' ? hmrEntries : []).concat(Object.keys(pkg.dependencies)),
       app: ['./src/index.js']
@@ -65,6 +66,10 @@ module.exports = (env, argv) => {
               loader: 'stylus-loader'
             }
           ]
+        },
+        {
+          test: /\.(jpg|png|gif|jpeg)$/,
+          loader: 'url-loader'
         }
       ]
     },

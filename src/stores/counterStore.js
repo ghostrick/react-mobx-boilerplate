@@ -5,7 +5,7 @@ export default class CounterStore {
 
   constructor() {}
 
-  @observable.ref count = 0
+  @observable.ref count: number = 0
 
   @action inc = () => {
     this.count = ++this.count

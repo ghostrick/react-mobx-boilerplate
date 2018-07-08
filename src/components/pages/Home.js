@@ -12,13 +12,24 @@ type PropsType = {
 export default (props: PropsType) => {
   return (
     <div className={styles.container}>
+
+      <a
+        href='https://twitter.com/ngmr_mo'
+        target='_blank'
+        className={styles.iconWrapper}
+      >
+        <img src={require('../../assets/images/icon.jpg')} />
+      </a>
+
       <h1>Hello, World</h1>
+
       <Link to='/count' className={styles.link}>
         <span>Go to counter</span>
         <Ionicon
           icon='ios-arrow-forward'
         />
       </Link>
+
     </div>
   )
 }
