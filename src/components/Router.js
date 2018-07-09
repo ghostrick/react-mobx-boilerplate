@@ -7,13 +7,11 @@ import Counter from './pages/Counter'
 
 export default () => {
   return (
-    <React.Fragment>
-      <BrowserRouter>
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/count" exact component={Counter} />
-        </Switch>
-      </BrowserRouter>
-    </React.Fragment>
+    <BrowserRouter>
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/count" exact component={Counter} />
+      </Switch>
+    </BrowserRouter>
   )
 }
